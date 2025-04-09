@@ -1,0 +1,14 @@
+Agregar un Campo Personalizado en ODOO
+
+1. Activar ODOO en Modo desarrollador 
+2. Seleccionar la opcion Configuracion.
+3. Seleccionar la opcion Tecnico -> Modelos
+4. Buscar la pantalla de odoo  donde se ubicara el nuevo campo en la url validar el nombre del modelo, ejemplo 
+   form&model = stock.picking
+5. En el listado de los modelos buscar el nombre del modelo y seleccionarlo. 
+6. Seleccionar la opcion Editar.
+7. En la pestaña CAMPOS añadir nuevo elemento y agregar las propiedades de elemento. (tipo,nombre del campo, etc) 
+8. En la pestaña VISTAS seleccionar en el nombre de la vista para agregar el campo personalizado. En el ejemplo
+	stock.picking.form 
+9. Agregar el campo nnuevo en la pestaña de la estrcutura. 
+10. Seleccionar GRABAR.
