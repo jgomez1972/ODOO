@@ -1,0 +1,40 @@
+Capacitacion 
+
+Modulo Contabilidad
+Parametrizaciones Generales
+Nomeclatura contable 
+Datos Maestros 
+   Clientes 	
+   Proveedores 
+   Articulos 
+
+
+Menu Asesor 
+
+Apunte Contables : detallan el registro contable de cada cuenta
+Asientos Contables : Visualizan los datos de un documento general. 
+diario: registro contable donde estan todas las transacciones financieras. 
+
+Liquidacines: Liquidacion de Facturas 	
+	      Liquidacion de pagos 
+		Generar Pago - PUEDO GENERAR PAGOS DE UNO O DIFERENTES BANCOS O TIPO TRANSFERENCIAS. 
+		  Compras pago (GENERACION DE PAGO 
+y lo asocio a la liquidacion. 
+    si tengo un desajuste hay que enviarlo a una cuenta contable. 
+
+
+Generacion de Pagos 
+   Compras - Pagos y se asocia a la liquidacion. 
+   
+se maneja liquidacion por  viaticos 
+ 			   caja chica 
+			   proveedores - pago directo 
+			    se paga por lote y se paga todos los proveedores. 
+hay que tomar en cuenta a que liquidacion hay que asociarla. 
+
+
+
+Informes Financieros
+Servidor de Reporteria
+Libros de Compras y Ventas 
+   
