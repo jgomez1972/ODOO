@@ -12,3 +12,23 @@ Agregar un Campo Personalizado en ODOO
 	stock.picking.form 
 9. Agregar el campo nnuevo en la pestaña de la estrcutura. 
 10. Seleccionar GRABAR.
+
+Opcion Numero 2 
+Crear un Campo Adicional en ODOO
+
+1. Activar modo desarrollador 
+2. Seleccionar en el Menu principal la opcion Configuracion 
+
+     Seleccionar la opcion "Tecnico"
+     Seleccionar la opcion Estructura de la base de datos y opcion "Modelos"
+        Buscar el Modelo donde se agregara el campor personalizado. Esto se puede revisar en el link del moludo donde 
+         se agregara dicho campo (ej: model= sale.order)
+        Seleccionar Editar en la pantalla  y en la pestaña campos seleccionar la opcion "Añadir Elemento"
+           Agregar el nombre del campo  y el tipo de campo 
+
+3. Seleccionar el modulo donde se agregara el campo personalizado. (Pedidos de Venta), abrir un documento y editar
+3. En el menu de herramientas seleccionar la opcion "Abrir Herramientas del desarrollador" 
+
+    Seleccionar la opcion Editar FormVer 
+    En la pestaña Estructura buscar algun campo de referencia para incluir el nuevo campo personalizado. 
+    
