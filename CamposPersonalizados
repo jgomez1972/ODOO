@@ -11,6 +11,15 @@ Agregar un Campo Personalizado en ODOO
 8. En la pestaña VISTAS seleccionar en el nombre de la vista para agregar el campo personalizado. En el ejemplo
 	stock.picking.form 
 9. Agregar el campo nnuevo en la pestaña de la estrcutura. 
+
+   <group>
+                            <field name="partner_id" attrs="{'invisible': [('picking_type_code', '=', 'internal')]}"/>
+                            <field name="location_id" groups="stock.group_stock_multi_locations" attrs="{'invisible': [('picking_type_code', '=', 'outgoing')]}"/>
+                            <field name="location_dest_id" groups="stock.group_stock_multi_locations" attrs="{'invisible': [('picking_type_code', '=', 'incoming')]}"/>
+                            <field name="x_no_op"/>
+
+
+
 10. Seleccionar GRABAR.
 
 Opcion Numero 2 
