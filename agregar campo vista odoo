@@ -1,0 +1,11 @@
+Agregar Campos en la Vistas de ODOO. 
+
+1. Ingresar a la vista donde visualiza la informacion del modulo seleccionado 
+  Ejemplo: Seleccionar Menu Inventario -> Control de Inventario -> Productos 
+2. Al visualizar la vista, seleccionamos la opcion llamada  "LISTA" en las opciones de la pantalla superior izquierda
+3. El cual cambiara la visualizacion del menu de de la vista. 
+4. Seleccionar el icono de "Personalizacion" (menu de herramientas)
+5. Luego ubicarse en las coulumnas de la vista y posicionarse al limite de la columna y se activa el simbolo "+"
+6. Al presionar la opcion "+" se debe seleccionar la columna ue se necesita agregar en la vista. 
+7. Para grabar dicho proceso se debe seleccionar el icono "Personalizacion" nuevamente y regresa a la pantalla de VISTA. 
+
